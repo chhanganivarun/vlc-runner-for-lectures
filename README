@@ -1,0 +1,10 @@
+This is a vlc list generator and lets you continuously play through all the
+lectures of a course without needing to exit vlc and play each file again and
+again.
+
+To run to program first generate a file list using make_file_list.sh. This
+will generate a file called file_list. Then run program startfrom.py. This
+program accepts video number to start from as optional. This program accesses
+file_list.py and plays videos from there by making a call to terminal using
+library subrocess.
+
